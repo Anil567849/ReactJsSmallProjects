@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Todo from './pages/Todo';
+import Weather from './pages/Weather';
+import Countdown from './pages/Countdown';
+import DragDrop from './pages/DragDrop';
+import InfiniteScroll from './pages/InfiniteScroll';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Todo/> */}
+      {/* <Weather/> */}
+      {/* <Countdown/> */}
+      {/* <DragDrop/> */}
+      {/* <InfiniteScroll/> */}
     </div>
   );
 }
